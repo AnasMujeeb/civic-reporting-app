@@ -1,0 +1,17 @@
+{
+  "name": "digital-karachi-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:web": "npm run dev --workspace=web-admin",
+    "dev:mobile": "npm run start --workspace=mobile"
+  },
+  "dependencies": {
+    "firebase-admin": "^14.4.0"
+  }
+}

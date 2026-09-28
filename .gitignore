@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.local
+.env.production
+dist/
+build/
+.DS_Store
+firebase-service-account.json
+.expo/
+repomix-output.xml
+.env
+node_modules/
