@@ -1,0 +1,9 @@
+node_modules/
+dist/
+build/
+.DS_Store
+firebase-service-account.json
+.expo/
+repomix-output.xml
+node_modules/
+config.bat

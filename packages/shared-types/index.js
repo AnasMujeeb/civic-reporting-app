@@ -1,0 +1,16 @@
+module.exports = {
+  ROLES: {
+    CITIZEN: 'CITIZEN',
+    STREET_REP: 'STREET_REP',
+    CONTRACTOR: 'CONTRACTOR',
+    UC_OFFICER: 'UC_OFFICER',
+    MAYOR: 'MAYOR'
+  },
+  STATUS: {
+    PENDING: 'PENDING',
+    REP_VERIFIED: 'REP_VERIFIED',
+    IN_PROGRESS: 'IN_PROGRESS',
+    FIXED: 'FIXED',
+    CLOSED: 'CLOSED'
+  }
+};
